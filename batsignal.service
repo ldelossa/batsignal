@@ -4,7 +4,7 @@ Documentation=man:batsignal(1)
 
 [Service]
 Type=simple
-ExecStart=batsignal -w 20 -c 10 -d 5 -W "Battery Warning" -C "Battery Critical" -F "Battery Full" -n BAT0 -m 30
+ExecStart=batsignal -w 20 -c 10 -d 5 -m 30
 Restart=on-failure
 RestartSec=1
 
